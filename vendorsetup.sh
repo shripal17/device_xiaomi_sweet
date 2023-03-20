@@ -15,7 +15,7 @@ git clone https://github.com/Sm6150-Sweet/device_xiaomi_sm6150 -b 13.0 device/xi
 git clone https://github.com/Sm6150-Sweet/vendor_xiaomi.git -b 13.0 vendor/xiaomi
 
 # Kernel
-git clone -b 15 --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git prebuilts/clang/host/linux-x86/clang-playground
+git clone -b 17 --depth=1 https://gitlab.com/PixelOS-Devices/playgroundtc.git prebuilts/clang/host/linux-x86/clang-playground
 git clone -b meraki --depth=1 https://github.com/Sm6150-Sweet/kernel_xiaomi_sm6150 kernel/xiaomi/sm6150
 
 # Leica Camera
