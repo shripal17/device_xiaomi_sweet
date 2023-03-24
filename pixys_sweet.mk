@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common Alphadroid  Stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common PixysOS  Stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Alphadroid Stuffs
+# PixysOS Stuffs
 TARGET_HAS_UDFPS := false
 TARGET_ENABLE_BLUR := true
 TARGET_INCLUDE_MATLOG := false
@@ -27,11 +27,11 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GAPPS := true
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 
-# Blaze Maintainer
-ALPHA_MAINTAINER := franlop77
-ALPHA_BUILD_TYPE := Official
+# PixysOS Maintainer
+PIXYSOS_MAINTAINER := JYR_RC
+PIXYSOS_BUILD_TYPE := UNOfficial
 
-PRODUCT_NAME := lineage_sweet
+PRODUCT_NAME := pixys_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
