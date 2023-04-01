@@ -12,8 +12,8 @@
   },
   
   {
-    "remote":      "github",
-    "repository":  "https://github.com/JYRRC/device_xiaomi_sm6150-common.git",
+    "remote":      "https://github.com/JYRRC/device_xiaomi_sm6150-common.git",
+    "repository":  "device_xiaomi_sm6150-common",
     "target_path": "device/xiaomi/sm6150-common",
     "branch":      "thirteen"
   }
