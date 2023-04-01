@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "vendor_xiaomi_sweet",
+    "target_path": "vendor/xiaomi/sweet",
+    "branch": "thirteen"
+  },
+
+  {
+    "repository": "kernel_xiaomi_sweet",
+    "target_path": "kernel/xiaomi/sweet",
+    "branch": "thirteen"
+  }
+]
