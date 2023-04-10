@@ -10,12 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit common PixysOS  Stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# PixysOS Stuffs
+# ColtOS Stuffs
 TARGET_HAS_UDFPS := false
 TARGET_ENABLE_BLUR := true
 TARGET_INCLUDE_MATLOG := false
@@ -24,14 +25,14 @@ TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Gapps
-WITH_GAPPS := true
-TARGET_OPTOUT_GOOGLE_TELEPHONY := true
+COLT_GAPPS := true
 
-# PixysOS Maintainer
-PIXYSOS_MAINTAINER := JYR_RC
-PIXYSOS_BUILD_TYPE := UNOfficial
+# Official
+COLT_BUILD_TYPE := Unofficial
+COLT_BUILD_MAINTAINER := JYR_RC
 
-PRODUCT_NAME := pixys_sweet
+
+PRODUCT_NAME := colt_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro
